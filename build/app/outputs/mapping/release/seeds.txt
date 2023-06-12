@@ -98,7 +98,7 @@ androidx.window.layout.WindowInfoTracker$Companion
 androidx.window.layout.WindowMetricsCalculator$Companion$reset$1
 androidx.window.embedding.SplitPairRule
 androidx.window.embedding.EmbeddingInterfaceCompat
-com.example.books.MainActivity
+com.signalrdemo.books.MainActivity
 androidx.window.layout.FoldingFeature$Orientation$Companion
 androidx.window.embedding.ExtensionEmbeddingBackend$EmbeddingCallbackImpl
 androidx.window.layout.EmptyDecorator
@@ -1265,7 +1265,7 @@ io.flutter.plugins.GeneratedPluginRegistrant: GeneratedPluginRegistrant()
 io.flutter.embedding.engine.renderer.SurfaceTextureWrapper: android.graphics.SurfaceTexture surfaceTexture()
 androidx.window.embedding.ActivityStack: java.util.List getActivities$window_release()
 io.flutter.embedding.android.FlutterActivityLaunchConfigs$BackgroundMode: io.flutter.embedding.android.FlutterActivityLaunchConfigs$BackgroundMode[] values()
-com.example.books.MainActivity: MainActivity()
+com.signalrdemo.books.MainActivity: MainActivity()
 androidx.window.layout.WindowLayoutInfo: boolean equals(java.lang.Object)
 io.flutter.embedding.android.DrawableSplashScreen$DrawableSplashScreenView: void setSplashDrawable(android.graphics.drawable.Drawable)
 io.flutter.embedding.engine.FlutterJNI: void updateCustomAccessibilityActions(java.nio.ByteBuffer,java.lang.String[])

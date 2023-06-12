@@ -1640,20 +1640,20 @@ androidx.viewpager.widget.ViewPager$SavedState
 androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
-com.example.books.BuildConfig
-com.example.books.R$attr
-com.example.books.R$color
-com.example.books.R$dimen
-com.example.books.R$drawable
-com.example.books.R$id
-com.example.books.R$integer
-com.example.books.R$layout
-com.example.books.R$mipmap
-com.example.books.R$string
-com.example.books.R$style
-com.example.books.R$styleable
-com.example.books.R$xml
-com.example.books.R
+com.signalrdemo.books.BuildConfig
+com.signalrdemo.books.R$attr
+com.signalrdemo.books.R$color
+com.signalrdemo.books.R$dimen
+com.signalrdemo.books.R$drawable
+com.signalrdemo.books.R$id
+com.signalrdemo.books.R$integer
+com.signalrdemo.books.R$layout
+com.signalrdemo.books.R$mipmap
+com.signalrdemo.books.R$string
+com.signalrdemo.books.R$style
+com.signalrdemo.books.R$styleable
+com.signalrdemo.books.R$xml
+com.signalrdemo.books.R
 com.google.gson.FieldAttributes:
     java.lang.Object get(java.lang.Object)
     public java.lang.annotation.Annotation getAnnotation(java.lang.Class)

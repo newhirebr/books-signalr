@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.books"
+3    package="com.signalrdemo.books"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -26,7 +26,7 @@
 23        android:networkSecurityConfig="@xml/network_security_config"
 24        android:usesCleartextTraffic="true" >
 25        <activity
-26            android:name="com.example.books.MainActivity"
+26            android:name="com.signalrdemo.books.MainActivity"
 27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 28            android:exported="true"
 29            android:hardwareAccelerated="true"

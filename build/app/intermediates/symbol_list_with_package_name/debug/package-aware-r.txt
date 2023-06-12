@@ -1,4 +1,4 @@
-com.example.books
+com.signalrdemo.books
 attr activityAction
 attr activityName
 attr alpha

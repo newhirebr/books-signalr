@@ -114,7 +114,7 @@ INJECTED from /Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManif
 		INJECTED from /Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml
-activity#com.example.books.MainActivity
+activity#com.signalrdemo.books.MainActivity
 ADDED from /Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:9:9-29:20
 	android:launchMode
 		ADDED from /Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:12:13-43

@@ -130,7 +130,7 @@
 # The proguard configuration file for the following section is /Users/marwakaraki/Desktop/books/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class com.example.books.MainActivity { <init>(); }
+-keep class com.signalrdemo.books.MainActivity { <init>(); }
 
 # End of content from /Users/marwakaraki/Desktop/books/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 # The proguard configuration file for the following section is /Users/marwakaraki/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/proguard.txt

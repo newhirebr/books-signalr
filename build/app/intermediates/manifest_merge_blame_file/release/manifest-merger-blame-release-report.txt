@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.books"
+3    package="com.signalrdemo.books"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -29,7 +29,7 @@
 19-->/Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:6:9-44
 20        <activity
 20-->/Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:9:9-29:20
-21            android:name="com.example.books.MainActivity"
+21            android:name="com.signalrdemo.books.MainActivity"
 21-->/Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:10:13-41
 22            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 22-->/Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:14:13-163
