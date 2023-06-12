@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - signalr_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - signalr_flutter (from `.symlinks/plugins/signalr_flutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  signalr_flutter:
+    :path: ".symlinks/plugins/signalr_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  signalr_flutter: fcbc21129947f1f53e38b6b035012aa150359bc8
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.0
