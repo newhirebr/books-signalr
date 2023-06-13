@@ -4,7 +4,7 @@
             "outputFile": "com.signalrdemo.books.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/marwakaraki/Desktop/books/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

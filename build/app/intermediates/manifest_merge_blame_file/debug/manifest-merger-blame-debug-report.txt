@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.signalrdemo.books"
 4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+5    android:versionName="1.0.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:2:5-67
-15-->/Users/marwakaraki/Desktop/books/android/app/src/main/AndroidManifest.xml:2:22-64
+15-->/Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml:2:5-67
+15-->/Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml:2:22-64
 16
 17    <application
 18        android:name="android.app.Application"

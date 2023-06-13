@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		OjWFZCHHN/KbmKdSJpIM8AFfCi4=
+		ZSW2Dl9BtFhY/m47dK9bCM5rAXc=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BdwYanvrp3Yn+d2VDjdoWdxKj68=
+		YTGq9jiEGqvadR9LgF/cAfB7xHs=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		WJy83jK0uEIBMjCthF1YyX8OzyM=
+		xgNuGFeN8bXV8hHQsHAurwUejgM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/signalrlogo.png</key>
 		<data>
@@ -210,11 +210,11 @@
 		</data>
 		<key>Frameworks/signalr_flutter.framework/signalr_flutter</key>
 		<data>
-		2yLYMBDj/kUCT/heTcqRqd3fas0=
+		4aVyElaSKjDIxcWzX4c8f1yCEwU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xMOKpHtr+L3lfFKtyl96YGwexns=
+		i1juC4CXMn1duyXDbKpT92LX17E=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6XUe6T0og+95M26PfJIgyNUYTvLjn5SlROqZdlW29xI=
+			gN7Bytyrtdx5I7Z7SUItIhX/zAz35K1a4ilhSXpToZY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -311,7 +311,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cskKMCuJVb40HHbbeYWCzf4B72BK7M2ggR4g5P8+sWg=
+			wbv/8YaKApkM5Vdb/cjrTdI95g+oKkmrULqJd+UD2Bk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -360,7 +360,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NNqivfz0gesrsJH+xcGHL01wCcV63sqiSyAUGukpUjU=
+			BmwmM8zURmM27WUn4jOXeye+wJ+gd8GCmEtNWpGIrj4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/signalrlogo.png</key>
@@ -584,7 +584,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKps43b/rK4s6zXcOyfDOvHrgEiqcH/FbIMsCLLSxY0=
+			2jVHz404vJyth/KTYCh8o2ZbI3uCTyubI04yE476JiE=
 			</data>
 		</dict>
 	</dict>
