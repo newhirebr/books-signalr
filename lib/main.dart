@@ -34,7 +34,7 @@ class _BookAppState extends State<BookApp> {
   Future<void> connectToHub() async {
     try {
       hubConnection = HubConnectionBuilder()
-          .withUrl("ws://bookhubapptestmarwa.azurewebsites.net/bookhub",
+          .withUrl("ws://bookhubapp2.azurewebsites.net/bookhub",
               options: HttpConnectionOptions(
                 skipNegotiation: true,
                 transport: HttpTransportType.WebSockets,
@@ -48,7 +48,13 @@ class _BookAppState extends State<BookApp> {
           }
         });
       });
+      hubConnection?.on("ReceiveOlderBooks", (books) {
+        setState(() {
+          this.books.addAll(Book.fromJsonList(books![0] as List));
+        });
+      });
       await hubConnection?.start();
+      await hubConnection?.invoke("SendOlderBooks", args: []);
     } catch (e) {}
   }
 
@@ -106,5 +112,8 @@ class Book {
 
   factory Book.fromJson(Map<String, dynamic> json) {
     return Book(json['title'], json['author']);
+  }
+  static List<Book> fromJsonList(List<dynamic> jsonList) {
+    return jsonList.map((json) => Book.fromJson(json)).toList();
   }
 }

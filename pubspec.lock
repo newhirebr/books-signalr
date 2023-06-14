@@ -97,14 +97,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
-  equatable:
-    dependency: transitive
-    description:
-      name: equatable
-      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -211,6 +203,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  mysql1:
+    dependency: "direct main"
+    description:
+      name: mysql1
+      sha256: "68aec7003d2abc85769bafa1777af3f4a390a90c31032b89636758ff8eb839e9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.20.0"
   path:
     dependency: transitive
     description:
@@ -235,22 +235,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.7.3"
-  signalr_core:
-    dependency: "direct main"
+  pool:
+    dependency: transitive
     description:
-      name: signalr_core
-      sha256: dca676372a00c051511591ed0e24521ff7aa4e9320a7fa778a1007f7f522c8c0
+      name: pool
+      sha256: "20fe868b6314b322ea036ba325e6fc0711a22948856475e2c2b6306e8ab39c2a"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.1"
-  signalr_flutter:
-    dependency: "direct main"
-    description:
-      name: signalr_flutter
-      sha256: df6336951313d132ed8a79f7ec79130cd838194e6f63eac24c1f6da3504a2f0d
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.0"
+    version: "1.5.1"
   signalr_netcore:
     dependency: "direct main"
     description:
@@ -370,4 +362,3 @@ packages:
     version: "3.1.2"
 sdks:
   dart: ">=3.0.2 <4.0.0"
-  flutter: ">=1.20.0"

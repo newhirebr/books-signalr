@@ -17,7 +17,6 @@ INJECTED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/sr
 INJECTED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml:1:1-36:12
 INJECTED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml:1:1-36:12
-MERGED from [:signalr_flutter] /Users/marwakaraki/Desktop/GitHub/new/books-signalr/build/signalr_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/marwakaraki/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/marwakaraki/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/marwakaraki/.gradle/caches/transforms-3/75f94412898c7559d34d7edbbeaeb394/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -62,8 +61,6 @@ uses-sdk
 INJECTED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/marwakaraki/Desktop/GitHub/new/books-signalr/android/app/src/main/AndroidManifest.xml
-MERGED from [:signalr_flutter] /Users/marwakaraki/Desktop/GitHub/new/books-signalr/build/signalr_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:signalr_flutter] /Users/marwakaraki/Desktop/GitHub/new/books-signalr/build/signalr_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/marwakaraki/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/marwakaraki/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/marwakaraki/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41

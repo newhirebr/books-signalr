@@ -74,12 +74,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "equatable",
-      "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/equatable-2.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "fake_async",
       "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
@@ -164,6 +158,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "mysql1",
+      "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/mysql1-0.20.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
@@ -182,14 +182,8 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "signalr_core",
-      "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/signalr_core-1.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "signalr_flutter",
-      "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/signalr_flutter-0.2.0",
+      "name": "pool",
+      "rootUri": "file:///Users/marwakaraki/.pub-cache/hosted/pub.dev/pool-1.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -290,7 +284,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-06-12T18:06:25.345287Z",
+  "generated": "2023-06-13T16:06:52.306790Z",
   "generator": "pub",
   "generatorVersion": "3.0.2"
 }
