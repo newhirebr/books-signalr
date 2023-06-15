@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		cIClLmzEAEbQ3NEQ/OX34JOdE54=
+		x+pH2GWWJKxp6ma1q0gazZyEBgE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		ZSW2Dl9BtFhY/m47dK9bCM5rAXc=
+		EUVFt8qCFyseX71OSCNDcsIbQFk=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		YTGq9jiEGqvadR9LgF/cAfB7xHs=
+		m9VJgWf6AFp6W9V08z1MCJj5y4Q=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		sLfftwdQfHpW1+YYeMjMYGQz2bE=
+		NjCXNnWWuBPxg9hhWulut+NmqIE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		xgNuGFeN8bXV8hHQsHAurwUejgM=
+		asDQqFrvKxHiBiAAmtuDP99sdLA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/signalrlogo.png</key>
 		<data>
@@ -248,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nKW1zlGf0x8tryZaTA8hkfqZ0FFni5/U2qajr3s0uJo=
+			yT/WGVHkhITcJIMSAkMJMWK2HCLzxmgPr/xPE8Tdg/U=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gN7Bytyrtdx5I7Z7SUItIhX/zAz35K1a4ilhSXpToZY=
+			RADfRbFYVxwLSm0YKTFyF5diWF5hi03vHYpvaivZIH4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -311,7 +311,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wbv/8YaKApkM5Vdb/cjrTdI95g+oKkmrULqJd+UD2Bk=
+			5Eoyx0HKSYHnWhVgwdSddzqFTOTaMq9y8YQtV5F1JAE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -339,7 +339,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmxRuCoVl/atkEqBK5/1VlcZz7Kk3ho5Dcv8Xb+1JuQ=
+			WcTBIzoC2pBtQlffnqYsQBjrD5ln2fkf/6PQ/yh14Dg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -360,7 +360,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BmwmM8zURmM27WUn4jOXeye+wJ+gd8GCmEtNWpGIrj4=
+			P8ueADlxw0PdgGNqvowKxMfz2dkAQv8xuK2XLja3uKY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/lib/assets/signalrlogo.png</key>
