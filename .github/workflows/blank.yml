@@ -58,11 +58,13 @@ jobs:
 
     - name: Deploy to TestFlight
       run: |
-        # your deploy_testflight.sh script content goes here
-        # make sure it includes necessary commands for TestFlight deployment
-        # for example:
-        # chmod +x deploy_testflight.sh
-        # ./deploy_testflight.sh
+        # Build IPA
+        xcodebuild clean -workspace "ios/Runner.xcworkspace" -scheme "Runner" -configuration Release
+        xcodebuild archive -workspace "ios/Runner.xcworkspace" -scheme "Runner" -configuration Release -archivePath "build/ios/Runner.xcarchive"
+        xcodebuild -exportArchive -archivePath "build/ios/Runner.xcarchive" -exportOptionsPlist "exportOptions.plist" -exportPath "build/ios/"
+
+        # Upload to TestFlight
+        altool --upload-app -f "build/ios/Runner.ipa" -t ios -u "mmk100@mail.aub.edu" -p "hveh-blaw-okdn-anbuc" --verbose
       env:
         ITC_USER: mmk100@mail.aub.edu
         ITC_APP_SPECIFIC_PASSWORD: hveh-blaw-okdn-anbuc
