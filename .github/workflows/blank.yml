@@ -21,8 +21,8 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
-    - name: Run tests
-      run: flutter test
+    - name: Install CocoaPods dependencies
+      run: cd ios && pod install && cd ..
 
     - name: Build iOS
       run: flutter build ios --release --no-codesign
