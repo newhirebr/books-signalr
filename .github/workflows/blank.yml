@@ -77,4 +77,4 @@ jobs:
         /Applications/Xcode.app/Contents/Developer/usr/bin/altool --upload-app -f "build/ios/Runner.xcarchive/Products/Applications/Runner.app" -t ios -u $ITC_USER -p $ITC_APP_SPECIFIC_PASSWORD --verbose
       env:
         ITC_USER: mmk100@mail.aub.edu
-        ITC_APP_SPECIFIC_PASSWORD: hveh-blaw-okdn-anbu
+        ITC_APP_SPECIFIC_PASSWORD: uluv-jdyo-xjci-nfel
