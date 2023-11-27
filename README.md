@@ -1,6 +1,6 @@
 # books
 
-A new Flutter projectrwtwq
+A new Flutter project
 
 ## Getting Started
 
