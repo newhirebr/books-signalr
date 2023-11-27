@@ -58,34 +58,15 @@ jobs:
         mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
         cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles
 
+    - name: Create export options plist
+      run: echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>method</key><string>ad-hoc</string><key>provisioningProfiles</key><dict><key>com.signalrdemo.books</key><string>signalr provisioning profile</string></dict><key>signingCertificate</key><string>Apple Distribution: Luna Research Collective LLC (M8Y2RP8675)</string><key>signingStyle</key><string>manual</string><key>stripSwiftSymbols</key><true/></dict></plist>' > exportOptions.plist
+
     - name: Deploy to TestFlight
       run: |
         # Build IPA
         xcodebuild clean -workspace "ios/Runner.xcworkspace" -scheme "Runner" -configuration Release
         xcodebuild archive -workspace "ios/Runner.xcworkspace" -scheme "Runner" -configuration Release -archivePath "build/ios/Runner.xcarchive"
-        xcodebuild -exportArchive -archivePath "build/ios/Runner.xcarchive" -exportOptionsPlist - << EOF
-        <?xml version="1.0" encoding="UTF-8"?>
-        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-        <plist version="1.0">
-        <dict>
-            <key>method</key>
-            <string>ad-hoc</string>
-            <key>provisioningProfiles</key>
-            <dict>
-                <key>com.signalrdemo.books</key>
-                <string>signalr provisioning profile</string>
-            </dict>
-            <key>signingCertificate</key>
-            <string>Apple Distribution: Luna Research Collective LLC (M8Y2RP8675)</string>
-            <key>signingStyle</key>
-            <string>manual</string>
-            <key>stripSwiftSymbols</key>
-            <true/>
-            <!-- Add any other necessary options -->
-        </dict>
-        </plist>
-        EOF
-        -exportPath "build/ios/"
+        xcodebuild -exportArchive -archivePath "build/ios/Runner.xcarchive" -exportOptionsPlist "exportOptions.plist" -exportPath "build/ios/"
 
         # Upload to TestFlight
         altool --upload-app -f "build/ios/Runner.ipa" -t ios -u mmk100@mail.aub.edu -p hveh-blaw-okdn-anbuc --verbose
