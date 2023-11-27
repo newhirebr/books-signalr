@@ -10,6 +10,9 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    - name: Install Xcode Command Line Tools
+      run: xcode-select --install || true
+
     - name: Checkout code
       uses: actions/checkout@v2
 
