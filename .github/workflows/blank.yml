@@ -33,9 +33,9 @@ jobs:
 
     - name: Set Xcode Accounts
       run: |
-        xcrun altool --store-password-in-keychain-item "AC_PASSWORD" -u mmk100@mail.aub.edu -p "$ITC_APP_SPECIFIC_PASSWORD"
+        xcrun altool -u mmk100@mail.aub.edu -p hveh-blaw-okdn-anbuc
         xcrun xcodebuild -accountProvider mmk100@mail.aub.edu -allowProvisioningUpdates
-    
+     
     - name: Install Apple certificate and provisioning profile
       env:
         APPLE_CERTIFICATE: MIIM2wIerwt
