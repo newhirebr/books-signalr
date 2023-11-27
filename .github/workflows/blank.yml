@@ -70,8 +70,8 @@ jobs:
         xcodebuild archive -workspace "ios/Runner.xcworkspace" -scheme "Runner" -configuration Release -archivePath "build/ios/Runner.xcarchive"
         xcodebuild -exportArchive -archivePath "build/ios/Runner.xcarchive" -exportOptionsPlist "exportOptions.plist" -exportPath "build/ios/"
 
-        # Upload to TestFlight
-        altool --upload-app -f "build/ios/Runner.ipa" -t ios -u mmk100@mail.aub.edu -p hveh-blaw-okdn-anbuc --verbose
+        # Specify full path to altool
+        /Applications/Xcode.app/Contents/Developer/usr/bin/altool --upload-app -f "build/ios/Runner.ipa" -t ios -u mmk100@mail.aub.edu -p hveh-blaw-okdn-anbuc --verbose
       env:
         ITC_USER: mmk100@mail.aub.edu
         ITC_APP_SPECIFIC_PASSWORD: hveh-blaw-okdn-anbuc
