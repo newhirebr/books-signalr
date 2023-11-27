@@ -64,7 +64,7 @@ jobs:
 
     - name: Create export options plist
       run: |
-        echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>method</key><string>ad-hoc</string><key>provisioningProfiles</key><dict><key>com.signalrdemo.books</key><string>signalr provisioning profile</string></dict><key>signingCertificate</key><string>Apple Distribution: Luna Research Collective LLC (M8Y2RP8675)</string><key>signingStyle</key><string>manual</string><key>stripSwiftSymbols</key><true/></dict></plist>' > exportOptions.plist
+        echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>method</key><string>ad-hoc</string><key>stripSwiftSymbols</key><true/></dict></plist>' > exportOptions.plist
 
     - name: Deploy to TestFlight
       run: |
