@@ -4,8 +4,6 @@
 <dict>
     <key>method</key>
     <string>ad-hoc</string>
-    <key>signingCertificate</key>
-    <string>Apple Distribution: Luna Research Collective LLC (M8Y2RP8675)</string>
     <key>signingStyle</key>
     <string>manual</string>
     <key>stripSwiftSymbols</key>
