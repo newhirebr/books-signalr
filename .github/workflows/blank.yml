@@ -74,7 +74,7 @@ jobs:
         xcodebuild -exportArchive -archivePath "build/ios/Runner.xcarchive" -exportOptionsPlist "exportOptions.plist" -exportPath "build/ios/"
 
         # Specify full path to altool
-        /Applications/Xcode.app/Contents/Developer/usr/bin/altool --upload-app -f "build/ios/Runner.ipa" -t ios -u mmk100@mail.aub.edu -p hveh-blaw-okdn-anbuc --verbose
+        /Applications/Xcode.app/Contents/Developer/usr/bin/altool --upload-app -f "build/ios/Runner.xcarchive/Products/Applications/Runner.app" -t ios -u mmk100@mail.aub.edu -p hveh-blaw-okdn-anbuc --verbose
       env:
         ITC_USER: mmk100@mail.aub.edu
         ITC_APP_SPECIFIC_PASSWORD: hveh-blaw-okdn-anbuc
