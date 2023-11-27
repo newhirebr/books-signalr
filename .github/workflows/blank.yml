@@ -31,6 +31,11 @@ jobs:
       run: |
         xcodebuild -project ios/Runner.xcodeproj -scheme Runner -destination 'generic/platform=iOS' -allowProvisioningUpdates
         
+    - name: Set Xcode Accounts
+      run: |
+        xcrun altool --store-password-in-keychain-item "AC_PASSWORD" -u "$ITC_USER" -p "$ITC_APP_SPECIFIC_PASSWORD"
+        xcrun xcodebuild -accountProvider "$ITC_USER" -allowProvisioningUpdates
+    
     - name: Install Apple certificate and provisioning profile
       env:
         APPLE_CERTIFICATE: MIIM2wIerwt
