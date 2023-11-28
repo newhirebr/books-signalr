@@ -1,0 +1,8 @@
+app_identifier("com.signalrdemo.books") # The bundle identifier of your app
+apple_id("mmk100@mail.aub.edu") # Your Apple Developer Portal username
+
+itc_team_id("122983048") # App Store Connect Team ID
+team_id("M8Y2RP8675") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
