@@ -73,5 +73,5 @@ jobs:
         xcodebuild archive -workspace "ios/Runner.xcworkspace" -scheme "Runner" -configuration Release -archivePath "build/ios/Runner.xcarchive"
         xcodebuild -exportArchive -archivePath "build/ios/Runner.xcarchive" -exportOptionsPlist "exportOptions.plist" -exportPath "build/ios/"
 
-        # Specify full path to altool and use app-specific password
+        # Specify full path to altool and use Apple ID email and password
         /Applications/Xcode.app/Contents/Developer/usr/bin/altool --upload-app -f "build/ios/Runner.xcarchive/Products/Applications/Runner.app" -t ios -u ${{ secrets.ITC_USER }} -p ${{ secrets.ITC_APP_SPECIFIC_PASSWORD }} --verbose
