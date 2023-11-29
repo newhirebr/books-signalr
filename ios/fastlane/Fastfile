@@ -13,11 +13,17 @@ platform :ios do
       in_house: false,
     )
     # Sync certificates and provisioning profiles using match
-    sync_code_signing
-    disable_automatic_code_signing(path: "Runner.xcodeproj")
-    build_app
+    # match(
+    #   type: "appstore",
+    #   api_key: api_key,
+    #   keychain_password: ENV['KEYCHAIN_PASSWORD'] # Set the keychain password here
+    # )
     enable_automatic_code_signing(path: "Runner.xcodeproj")
-
+    # Build your app
+    build_app(
+      workspace: "Runner.xcworkspace", 
+      scheme: "Runner"
+    )
     # Upload to TestFlight
     upload_to_testflight(api_key: api_key)
   end
