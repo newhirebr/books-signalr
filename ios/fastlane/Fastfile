@@ -8,7 +8,7 @@ platform :ios do
     api_key = app_store_connect_api_key(
       key_id: "84AG5LAL42",
       issuer_id: "aaf8a98f-bbd1-47cd-81ff-f1e98ad51d13",
-      key_filepath: "./AuthKey_D383SF739.p8"
+      key_content: "-----BEGIN PRIVATE KEY-----MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgrnyTjhnLF8jAjJy1UCRXsvEvaGbk7caAz/wMV1HlIWKgCgYIKoZIzj0DAQehRANCAAS6LN8iA39MF0Y7T87zlEHcAszG98FL8qN1TORroCfVvRYPMkQq/0N2XkidWbcs1PlHWaoypIcOwHHus3zLpoXY-----END PRIVATE KEY-----"
     )
     # Sync certificates and provisioning profiles using match
     match(type: "appstore", api_key: app_store_connect_api_key)
