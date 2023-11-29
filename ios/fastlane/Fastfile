@@ -21,7 +21,12 @@ platform :ios do
     # Build your app
     build_app(
       workspace: "Runner.xcworkspace", 
-      scheme: "Runner"
+      scheme: "Runner",
+      export_options: {
+        provisioningProfiles: {
+          "com.signalrdemo" => signalr provisioning profile
+        }
+      }
     )
 
     # Upload to TestFlight
