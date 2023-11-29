@@ -8,7 +8,8 @@ platform :ios do
     api_key = app_store_connect_api_key(
       key_id: "84AG5LAL42",
       issuer_id: "aaf8a98f-bbd1-47cd-81ff-f1e98ad51d13",
-      key_content: "-----BEGIN PRIVATE KEY-----MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgrnyTjhnLF8jAjJy1UCRXsvEvaGbk7caAz/wMV1HlIWKgCgYIKoZIzj0DAQehRANCAAS6LN8iA39MF0Y7T87zlEHcAszG98FL8qN1TORroCfVvRYPMkQq/0N2XkidWbcs1PlHWaoypIcOwHHus3zLpoXY-----END PRIVATE KEY-----"
+      is_key_content_base64: true,
+      key_content: "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JR1RBZ0VBTUJNR0J5cUdTTTQ5QWdFR0NDcUdTTTQ5QXdFSEJIa3dkd0lCQVFRZ3JueVRqaG5MRjhqQWpKeTEKVUNSWHN2RXZhR2JrN2NhQXovd01WMUhsSVdLZ0NnWUlLb1pJemowREFRZWhSQU5DQUFTNkxOOGlBMzlNRjBZNwpUODd6bEVIY0Fzekc5OEZMOHFOMVRPUnJvQ2ZWdlJZUE1rUXEvME4yWGtpZFdiY3MxUGxIV2FveXBJY093SEh1CnMzekxwb1hZCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0="
     )
     # Sync certificates and provisioning profiles using match
     match(type: "appstore", api_key: app_store_connect_api_key)
