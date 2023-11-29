@@ -13,21 +13,10 @@ platform :ios do
       in_house: false,
     )
     # Sync certificates and provisioning profiles using match
-    match(
-      type: "appstore",
-      api_key: api_key,
-      keychain_password: ENV['KEYCHAIN_PASSWORD'] # Set the keychain password here
-    )
-    # Build your app
-    build_app(
-      workspace: "Runner.xcworkspace", 
-      scheme: "Runner",
-      export_options: {
-        provisioningProfiles: {
-          "com.signalrdemo" => "signalr provisioning profile"
-        }
-      }
-    )
+    sync_code_signing
+    disable_automatic_code_signing(path: "Runner.xcodeproj")
+    build_app
+    enable_automatic_code_signing(path: "Runner.xcodeproj")
 
     # Upload to TestFlight
     upload_to_testflight(api_key: api_key)
