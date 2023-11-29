@@ -18,13 +18,18 @@ platform :ios do
     #   api_key: api_key,
     #   keychain_password: ENV['KEYCHAIN_PASSWORD'] # Set the keychain password here
     # )
+    # # Build your app
     enable_automatic_code_signing(path: "Runner.xcodeproj")
-    # Build your app
     build_app(
       workspace: "Runner.xcworkspace", 
-      scheme: "Runner"
+      scheme: "Runner",
+      export_options: {
+        provisioningProfiles: {
+          "com.signalrdemo" => "signalr provisioning profile"
+        }
+      }
     )
-    # Upload to TestFlight
+    
     upload_to_testflight(api_key: api_key)
   end
 end
